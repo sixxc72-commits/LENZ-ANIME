@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AnimeStream Premium Mobile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<header>
+<h1 onclick="loadHome()">LENZ <span>ANIME</span></h1>
+<div style="position: relative; width: 100%; max-width: 320px;">
+<div class="search-bar">
+<input id="searchInput" oninput="debouncedSearch()" placeholder="Cari anime kesukaanmu..." type="text"/>
+</div>
+<div class="search-dropdown" id="searchDropdown"></div>
+</div>
+</header>
+<main id="content"></main>
+
+
+<script src="script.js"></script></body>
+</html>
